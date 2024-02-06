@@ -1,0 +1,205 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#header a{
+ font-size: 20px;
+}
+
+
+.sec3{
+  background-color: #EAF0FC;
+}
+.clientsection{
+  background-color: #EAF0FC;
+
+}
+.combinesection{
+  background-color: #EAF0FC;
+
+
+}
+body {
+  height: auto;
+}
+
+.navsec {
+  background-image: linear-gradient(to top, #00000055 25%, #000000dc ),url(../Illustration/Images/header.jpg);
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+}
+
+.navsec-div{
+  position: absolute;
+  top: 50%;
+  
+}
+
+.aboutsec{
+  background-color: #ffffff;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+}
+
+header .logo {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.navigation {
+  display: flex;
+}
+
+.navigation li {
+  list-style: none;
+  margin-left: 30px;
+}
+
+.navigation li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.navigation li a:hover {
+  color: #ff0157;
+}
+
+header.sticky {
+  background-color: #ffffff;
+  padding: 10px 100px;
+  box-shadow: 0 5px 20px #00000050;
+}
+
+header.sticky .logo,
+header.sticky .navigation li a {
+  color: #000000;
+}
+
+
+.aboutsec p{
+  font-size: 13px;
+}
+.aboutsec span{
+  font-size: 13px;
+}
+
+.clientsection img{
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  
+}
+
+.buisness_section{
+  background-image: url(../Illustration/Images/bg-img-2.jpg);
+  height: 300px;
+  background-size: cover;
+}
+.buisness_section h2{
+  letter-spacing: 2px; 
+  
+}
+
+.contactsection h1{
+  letter-spacing: 2px;
+}
+.contactsection p{
+  font-size: 13px;
+}
+.fotersec1 p{
+  font-size: 13px;
+}
+.fotersec3 p{
+  font-size: 13px;
+}
+
+
+footer{
+  font-size: 13px;
+}
+
+
+
+.aboutsec h1{
+ 
+background-color: #f6ce33;
+
+}
+
+
+
+.about_border{
+  
+background: rgba( 255, 255, 255, 0.05 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4.5px );
+-webkit-backdrop-filter: blur( 4.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+.firstclient{
+  /* margin: 10px ; */
+background: rgba( 255, 255, 255, 0.05 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4.5px );
+-webkit-backdrop-filter: blur( 4.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+.secondclient {
+  /* margin: 10px ; */
+  background: rgba( 255, 255, 255, 0.05 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4.5px );
+-webkit-backdrop-filter: blur( 4.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.thirdclient{
+  /* margin: 10px ; */
+  background: rgba( 255, 255, 255, 0.05 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4.5px );
+-webkit-backdrop-filter: blur( 4.5px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+
